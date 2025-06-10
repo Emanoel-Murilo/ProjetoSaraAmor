@@ -2,26 +2,102 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Para o Amor da Minha Vida 💖</title>
+    <title>De: Murilo, Para: Sara</title>
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <link rel="icon" href="assets/images/carta.webp">
 </head>
 <body>
 <header class="boas-vindas">
     <h1>🌹 Para minha 42   🌹</h1>
-    <p>Esse site é só uma pequena forma de dizer o quanto você é especial pra mim.</p>
+    <p>Fiz isso só como uma pequena forma de dizer o quanto você é especial pra mim.</p>
     <button onclick="mostrarMensagem()">Clique aqui</button>
 </header>
 <section class="contador">
-    <h2>⏳ Nosso tempo juntos</h2>
-    <p>Estamos juntos há <span id="diasJuntos"></span> dias! 💖</p>
+    <h2>⏳ Sou muito feliz há:</h2>
+    <p style="font-size: 0.7em;" ><span id="diasJuntos"></span>💖</p>    
 </section>
 
 <section class="galeria">
     <h2>📸 Nozes!</h2>
     <div class="fotos">
-        <img src="assets/images/nozesECarro.jpg" alt="">
-        <img src="assets/images/nozesECarro.jpg" alt="">
-        <img src="assets/images/nozesECarro.jpg" alt="">
+        <div class="linha">
+            <div class="frame">
+                <img src="assets/images/nozes/1.jpeg" alt="">
+                <p>Skin Care! 🥰</p>
+            </div>
+            <div class="frame">
+                <img src="assets/images/nozes/2.jpeg" alt="">
+                <p>Joga Muito! 🎮</p>
+            </div>
+            <div class="frame">
+                <img src="assets/images/nozes/3.jpeg" alt="">
+                <p>Vergonhinha? ✋😳</p>
+            </div>
+            <div class="frame">
+                <img src="assets/images/nozes/4.jpeg" alt="">
+                <p>Baleiiii!! 🐳</p>
+            </div>
+        </div>
+        <div class="linha">
+            
+            <div class="frame">
+                <img src="assets/images/nozes/5.jpeg" alt="">
+                <p>Nadação 🏊‍♀️</p>
+            </div>
+
+            <div class="frame">
+                <img src="assets/images/nozes/6.jpeg" alt="">
+                <p>Polinho Carente 💤</p>
+            </div>
+            
+            <div class="frame">
+                <img src="assets/images/nozes/7.jpeg" alt="">
+                <p>Pós sorvet 🍨</p>
+            </div>
+
+            <div class="frame">
+                <img src="assets/images/nozes/8.jpeg" alt="">
+                <p>Bobona 😁</p>
+            </div>
+
+        </div>
+        <div class="linha">
+            <div class="frame">
+                <img src="assets/images/nozes/9.jpeg" alt="">
+                <p>Pós sorvet 2?</p>
+            </div>
+            <div class="frame">
+                <img src="assets/images/nozes/10.jpeg" alt="">
+                <p>🌑</p>
+            </div>
+            <div class="frame">
+                <img src="assets/images/nozes/11.jpeg" alt="">
+                <p>Hmmm, 😋</p>
+            </div>
+            <div class="frame">
+                <img src="assets/images/nozes/12.jpeg" alt="">
+                <p>Ano Novo 🎉</p>
+            </div>
+        </div>
+        <div class="linha">
+            <div class="frame">
+                <img src="assets/images/nozes/13.jpeg" alt="">
+                <p>Beijocas 💋</p>
+            </div>
+            <div class="frame">
+                <img src="assets/images/nozes/14.jpeg" alt="">
+                <p>👀</p>
+            </div>
+            <div class="frame">
+                <img src="assets/images/nozes/15.jpeg" alt="">
+                <p>💑</p>
+            </div>
+            <div class="frame">
+                <img src="assets/images/nozes/16.jpeg" alt="">
+                <p>☺️😘</p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -29,6 +105,15 @@
     <h2>💌 Uma Mensagem para Você</h2>
     <p>Amor, você é o melhor presente que a vida me deu. Obrigado por ser quem você é, e por estar ao meu lado. Te amo infinito! ❤️</p>
     <div id="musica"></div>
+    <model-viewer src="assets/images/euDançando.glb" alt="Animated 3D model" 
+                    autoplay 
+                    animation-name 
+                    seamless-poster 
+                    shadow-intensity="1" 
+                    ar-modes="webxr scene-viewer quick-look"
+                    style="width: 50vw; height: 50vw; margin: 0 auto;"                    
+                    >
+      </model-viewer>
 </section>
 
 <footer>

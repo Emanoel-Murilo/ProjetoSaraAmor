@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     margin: 0;
     padding: 0;
     background: #fff0f5;
@@ -20,52 +20,75 @@ font-size: 2.5em;
 }
 
 header button {
-margin-top: 20px;
-padding: 10px 20px;
-background: white;
-color: #ff4081;
-border: none;
-border-radius: 10px;
-font-size: 1em;
-cursor: pointer;
-transition: 0.3s;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: white;
+    color: #ff4081;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 header button:hover {
-background: #ffe4ec;
+    background: #ffe4ec;
 }
 
 section {
-padding: 40px 20px;
-text-align: center;
+    padding: 40px 20px;
+    text-align: center;
 }
 
 .nossa-historia ul {
-list-style: none;
-padding: 0;
-margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
 }
 
-.galeria .fotos {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-gap: 15px;
-margin-top: 20px;
+.fotos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
-.galeria img {
-width: 200px;
-height: auto;
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.linha {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.frame {
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    width: calc(200px + 5vw);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+
+.frame > p {
+    margin: 0;
+    font-size: calc(8px + 1vw);
+}
+
+.frame > img {
+    width: 100%;
+    border-radius: 10px;
+    overflow: auto;
+    filter: contrast(1.1) saturate(0.8) brightness(1.1) sepia(0.4);
 }
 
 .mensagem-final {
-display: none;
-background: #fff5f7;
-border-top: 2px dashed #ff6699;
-padding: 40px 20px;
+    display: none;
+    background: #fff5f7;
+    border-top: 2px dashed #ff6699;
+    padding: 40px 20px;
 }
 
 footer {
