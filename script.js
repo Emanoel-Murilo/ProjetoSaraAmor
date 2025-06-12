@@ -68,7 +68,7 @@ function calcularDiasJuntos() {
 window.onSpotifyIframeApiReady = (IFrameAPI) => {
     const element = document.getElementById('musica');
     const options = {
-        uri: 'https://open.spotify.com/track/7tmvvRmUqzCRjRx9ub8K7i?si=5cf42b41a8d54dd6',
+        uri: 'https://open.spotify.com/intl-pt/track/2o2xhyri4aJUtgMGkf5P0J',
         width: "50%",
         height: "158px",
     };
