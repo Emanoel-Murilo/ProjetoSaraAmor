@@ -13,7 +13,7 @@ function mostrarMensagem() {
 
 // tempo juntos
 function calcularDiasJuntos() {
-    const inicio = new Date(2022, 12, 29); 
+    const inicio = new Date(2022, 11, 29); 
     const hoje = new Date();
     
     let anos = hoje.getFullYear() - inicio.getFullYear();
